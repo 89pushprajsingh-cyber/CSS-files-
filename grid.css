@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color:grey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+
+.box{ 
+    height: 120px;
+    width: 120px;
+    border: 10px solid royalblue;
+    margin: 5px;
+    
+}
+#Box-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

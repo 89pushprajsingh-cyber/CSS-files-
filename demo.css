@@ -1,0 +1,18 @@
+
+.parent{
+    border: solid red;
+    padding: 20px;
+   font-size: 10px;
+    text-align: center;
+
+}
+.child{
+    border: solid rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 10em;
+}
+.grandchild{
+    font-size: 10em;
+    border: solid rgb(0, 0, 0);
+    padding: 20px;
+}

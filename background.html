@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background property</title>
+    
+    <style>
+        h1{
+            background-color: blue;
+            color :white;
+        }
+        .background{
+            background-image:none
+        }
+        div{
+            border: 5px solid rgba(9, 177, 163, 0.358);
+            padding: 20px;
+            margin: 20px;
+        }
+        form{
+            border: 5px solid rgba(19, 32, 221, 0.358);
+            padding: 20px;
+            margin: 20px;
+        }
+        th{
+            padding: 10px;
+            background-color: green;
+        }
+        td{
+            padding: 10px;
+            background-color: rgba(0, 0, 255, 0.384);
+        }
+        h3,h2{
+            background-color: rgb(46, 234, 234);
+        }
+        *{
+
+            font-size: 20px;
+            color: darkgreen;
+        }
+         #noman{
+            font-family: fantasy;
+        }
+       
+
+    </style>
+    
+ <link rel="icon"  href="./Laptop cover.png"/>
+    
+</head>
+
+<body>
+    <h1>This is a heading !!</h1>
+    <!--link tag-->
+    
+    
+</body>
+
+<!--form formation-->
+
+<form id="borderForm">
+<label for="user name">First Name: </label>
+<input id="user name" type="text" placeholder="eg : johnathon">
+<br>
+<br>
+
+<label for="user name">Last Name: </label>
+<input id="user name" type="text" placeholder="eg : obroy">
+<br/>
+<br/>
+
+<label for="email">Email :</label>
+<input id="email" type="email" placeholder="eg : john.doe@example.com">
+
+<br>
+<br>
+<label for="mobileNumber">Contact number</label>
+
+<input id="mobileNumber" type="tel" placeholder="0000000000">
+<br>
+<br>
+<label for="dateOfBirth">Enter D.O.B :</label>
+<input id="dateOfBirth" type="date" placeholder="15/07/2007">
+<br>
+<br>
+<p>Gender :</p>
+
+<label for="userGender">Female :</label>
+<input  id="userGender" type="radio" name="gender"/> 
+<br>
+<label for="Gender">Male :</label>
+<input  id="Gender" type="radio" name="gender"/>
+<br>
+<label for="other">Other :</label> 
+<input id="other" type="radio" name="gender" />
+</form>
+<input type="submit" value="submit">
+<input type="reset" value="clear">
+
+
+   <!--Methods ke bare me kuchh khas samajh nhi aaya -->
+   <!--HTML TABLES -->
+   <!--table tag is used for table formation-->
+   <!--rowspan used to combine 2 different rows-->
+   <!--colspan used to combine 2 different columns-->
+  
+   <br>
+   <br>
+   <br>
+   
+    <caption>
+        Highschool student test marks
+    </caption> 
+<table border="2">
+   
+    <br>
+    <br>
+     <thead>
+       <tr>
+    
+            <th>Name</th>
+            <th>Physics</th>
+            <th>Maths</th>
+       </tr> 
+     </thead>
+
+   
+    <tbody>
+    <tr>
+        <td>Aman </td>
+        <td>60</td>
+        <td>80</td>
+
+    </tr>
+    <tr>
+        <td>Achal</td>
+        <td>45</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>Awara</td>
+        <td>66</td>
+        <td>78</td>
+   
+    </tr>
+    </tbody>
+   </table>
+   <br>
+   <br>
+
+   <table border="2">
+    <caption>Time Table</caption>
+    <tr>
+        <th >Time</th>
+        <th>9:00-10:00</th>
+        <th>10:00-11:00</th>
+        <th>11:00-12:00</th>
+       
+    </tr>
+    <tr>
+        <th>Days</th>
+        <th colspan="5" style="text-align: center;">Subjects</th>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td colspan="2" style="text-align: center;">TrainX</td>
+       
+        <td rowspan="2">Physics</td>
+
+    </tr>
+    <tr>
+        <td >Tuseday</td>
+        <td rowspan="2">TrainX</td>
+        <td rowspan="2">TrainX</td>
+        
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+      
+       
+        <td>Maths</td>
+
+    </tr>
+   <td >Thursday</td>
+    <td>TrainX</td>
+    <td colspan="2" style="text-align: center;">ED</td>
+    <tr>
+        <td>Friday</td>
+        <td>TrainX</td>
+        <td>Math</td>
+        <td>Electrical</td>
+    </tr>
+    
+
+   </table>
+
+<br>
+<br>
+<h3>TEST MARKS </h3>
+
+
+<table border="2" style="border: 0cap;">
+
+<tr>
+    <th>SUBJECTS</th>
+    <th>INTERNAL MARKS</th>
+    <th>TEST MARKS</th>
+    <th>TOTAL MARKS</th>
+    
+</tr>
+<tr>
+    <td>HINDI</td>
+    <td>30</td>
+    <td>9</td>
+    <td>100</td>
+</tr>
+<tr>
+    <td>ENGLISH</td>
+    <td>30</td>
+    <td>13</td>
+    <td>100</td>
+</tr>
+<tr>
+    <td>MATH</td>
+    <td>30</td>
+    <td>27</td>
+    <td>100</td>
+</tr>
+<tr>
+    <td>PHYSICS</td>
+    <td>30</td>
+    <td>37</td>
+    <td>100</td>
+</tr>
+<tr>
+    <td>CHEMISTRY</td>
+    <td>30</td>
+    <td>11</td>
+    <td>100</td>
+</tr>
+<tr>
+    <td colspan="2" style="text-align: center;">TOTAL</td>
+    <td colspan="2" style="text-align: center;">97+150=247</td>
+</tr>
+
+</table>
+<h2>YOU ARE FAIL.... </h2>
+
+
+<!--BOX MODEL-->
+<!--Styling will be occur in specificity order which is priorities something like
+*<element<class<id  -->
+<body>
+    <p id="noman" style="color: pink;">
+        Lorem ipsum dolor sit amet
+         consectetur adipisicing elit. 
+         Suscipit blanditiis quibusdam 
+         ex facere rem minus, dolorem magnam
+          ut distinctio officiis quasi consequatu
+          r voluptatum voluptate enim
+           consequuntur quam est doloribus beatae!
+    </p>
+    <!--how to get fonts from google?
+    1>  copy link from google and paste in head tag
+    2>  copy class and paste in css file
+    3>  give same class to that tag which tag you want to style -->
+    <!--Styling in texts are known as typography-->
+</body>
+
+
+</html>
